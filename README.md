@@ -25,4 +25,12 @@ class SculpinKernel extends AbstractKernel
 }
 ```
 
+## Usage
+
+Read time is available as a property called `read_time` on the `page` object.
+
+```
+{{ page.read_time }}
+```
+
 For more information, see the Sculpin [Configuration](https://sculpin.io/documentation/extending-sculpin/configuration/) documentation.
