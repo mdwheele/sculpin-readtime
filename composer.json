@@ -1,0 +1,26 @@
+{
+    "name": "mdwheele/sculpin-readtime",
+    "homepage": "https://github.com/mdwheele/sculpin-readtime",
+    "description": "A Sculpin bundle for calculating read time, similar to Medium.",
+    "keywords": ["sculpin", "bundle", "extension", "read time"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dustin Wheeler",
+            "email": "mdwheele@ncsu.edu",
+            "homepage": "https://mdwheele.github.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4.0",
+        "sculpin/sculpin": "~2.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mdwheele\\Sculpin\\Bundle\\ReadTimeBundle\\": ""
+        }
+    }
+}
